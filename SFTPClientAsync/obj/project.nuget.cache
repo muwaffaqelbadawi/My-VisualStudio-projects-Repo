@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "8NL3XtqloNw=",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio\\Visual Studio Projects\\SFTPClientAsync\\SFTPClientAsync\\SFTPClientAsync.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muwaffaq\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "C:\\Users\\Muwaffaq\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.12\\microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512",
+    "C:\\Users\\Muwaffaq\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.12\\microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+    "C:\\Users\\Muwaffaq\\.nuget\\packages\\ssh.net\\2024.2.0\\ssh.net.2024.2.0.nupkg.sha512",
+    "C:\\Users\\Muwaffaq\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.12\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

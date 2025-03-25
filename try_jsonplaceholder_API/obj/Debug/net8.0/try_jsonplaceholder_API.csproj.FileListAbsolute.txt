@@ -1,0 +1,14 @@
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\bin\Debug\net8.0\try_jsonplaceholder_API.exe
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\bin\Debug\net8.0\try_jsonplaceholder_API.deps.json
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\bin\Debug\net8.0\try_jsonplaceholder_API.runtimeconfig.json
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\bin\Debug\net8.0\try_jsonplaceholder_API.dll
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\bin\Debug\net8.0\try_jsonplaceholder_API.pdb
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.AssemblyInfoInputs.cache
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.AssemblyInfo.cs
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.csproj.CoreCompileInputs.cache
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.dll
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\refint\try_jsonplaceholder_API.dll
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.pdb
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\try_jsonplaceholder_API.genruntimeconfig.cache
+D:\Personal projects\Try_jsonplaceholderAPI\try_jsonplaceholder_API\obj\Debug\net8.0\ref\try_jsonplaceholder_API.dll

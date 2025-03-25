@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mddNUztlSmYsyCpWXI0xuPpyeluGd17rwRddKwg3yRA=",
+  "Source": "SpotifyWebAPI_Intro",
+  "BasePath": "_content/SpotifyWebAPI_Intro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

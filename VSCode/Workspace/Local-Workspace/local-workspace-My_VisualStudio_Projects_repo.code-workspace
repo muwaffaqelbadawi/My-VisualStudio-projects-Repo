@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": "../My-VisualStudio-Projects-Repo"
+    }
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "path": ["${env:ProgramFiles}\\PowerShell\\7\\pwsh.exe"],
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "source": "Command Prompt",
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "path": [
+          "${env:LocalAppData}\\Programs\\Git\\bin\\bash.exe",
+          "${env:localappdata}\\Programs\\Git\\bin\\git.exe",
+          "${env:localappdata}\\Programs\\Git\\bin\\sh.exe",
+          "${env:localappdata}\\Programs\\Git\\git-bash.exe",
+          "${env:localappdata}\\Programs\\Git\\git-cmd.exe",
+          "${env:localappdata}\\Programs\\cmd\\git.exe"
+        ],
+        "args": ["--login", "-i"],
+        "icon": "terminal-bash"
+      }
+    },
+    "powershell.cwd": "UiPath",
+    "terminal.integrated.env.windows": {
+      "PATH": "${env:PATH};${env:LocalAppData}\\Programs\\UiPath"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16
+  }
+}

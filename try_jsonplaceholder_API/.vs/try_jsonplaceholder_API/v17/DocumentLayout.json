@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Personal projects\\Try_jsonplaceholderAPI\\try_jsonplaceholder_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7161B9A7-F9F0-49F2-876A-5D743A1B159A}|try_jsonplaceholder_API.csproj|d:\\personal projects\\try_jsonplaceholderapi\\try_jsonplaceholder_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7161B9A7-F9F0-49F2-876A-5D743A1B159A}|try_jsonplaceholder_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Personal projects\\Try_jsonplaceholderAPI\\try_jsonplaceholder_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Personal projects\\Try_jsonplaceholderAPI\\try_jsonplaceholder_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:29:07.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

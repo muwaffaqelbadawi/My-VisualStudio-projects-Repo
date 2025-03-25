@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jYuewBmHGiw=",
+  "success": true,
+  "projectFilePath": "D:\\Personal projects\\Try_jsonplaceholderAPI\\try_jsonplaceholder_API\\try_jsonplaceholder_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\muwaffaq\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\muwaffaq\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\muwaffaq\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\muwaffaq\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.12\\microsoft.netcore.app.host.win-x64.8.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

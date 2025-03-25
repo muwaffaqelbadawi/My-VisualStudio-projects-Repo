@@ -1,0 +1,36 @@
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.exe
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.deps.json
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.runtimeconfig.json
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.dll
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.pdb
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\Renci.SshNet.dll
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.csproj.AssemblyReference.cache
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.AssemblyInfoInputs.cache
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.AssemblyInfo.cs
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Cli.D2361BFD.Up2Date
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.dll
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\refint\SFTP Client.dll
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.pdb
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.genruntimeconfig.cache
+E:\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\ref\SFTP Client.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.exe
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.deps.json
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.runtimeconfig.json
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\SFTP Client.pdb
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\bin\Debug\net8.0\Renci.SshNet.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.csproj.AssemblyReference.cache
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.AssemblyInfoInputs.cache
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.AssemblyInfo.cs
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Cli.D2361BFD.Up2Date
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\refint\SFTP Client.dll
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.pdb
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\SFTP Client.genruntimeconfig.cache
+E:\Visual Studio\Visual Studio Projects\SFTP Client\SFTP Client\obj\Debug\net8.0\ref\SFTP Client.dll

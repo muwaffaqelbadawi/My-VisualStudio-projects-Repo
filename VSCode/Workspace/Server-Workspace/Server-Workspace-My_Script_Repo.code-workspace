@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "path": ["${env:ProgramFiles}\\PowerShell\\7\\pwsh.exe"],
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "source": "Command Prompt",
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "path": [
+          "${env:ProgramFiles}\\Git\\bin\\bash.exe",
+          "${env:ProgramFiles}\\Git\\bin\\git.exe",
+          "${env:ProgramFiles}\\Git\\bin\\sh.exe",
+          "${env:ProgramFiles}\\Git\\cmd\\git.exe",
+          "${env:ProgramFiles}\\Git\\git-bash.exe",
+          "${env:ProgramFiles}\\Git\\git-cmd.exe"
+        ],
+        "args": ["--login", "-i"],
+        "icon": "terminal-bash"
+      }
+    },
+    "powershell.cwd": "UiPath",
+    "terminal.integrated.env.windows": {
+      "PATH": "${env:PATH};${env:LocalAppData}\\Programs\\UiPath"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16
+  }
+}
