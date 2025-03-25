@@ -14,3 +14,12 @@ $ pip install ggshield
 ggshield auth login
 7- Install ggshield locally
 ggshield install -m local
+
+
+The schema of .env file in each Project:
+CLIENT_ID=your_client_id
+CLIENT_SECRET=your_client_secret
+REDIRECT_URI=your_redirect_uri
+AUTH_URL=your_auth_url
+TOKEN_URL=your_token_url
+API_BASE_URL=you_base_url

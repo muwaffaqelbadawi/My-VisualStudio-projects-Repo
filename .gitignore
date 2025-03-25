@@ -1,3 +1,11 @@
-myenv/
 .env
 .cache_ggshield
+Github_API_project/.env
+DotNet8.0_WebAPI_project/.env
+SFTPClient/.env
+SFTPClientAsync/.env
+Python_Projects/.env
+Python_Projects/myenv/
+SpotifyWebAPI_Intro/.env
+try_jsonplaceholder_API/.env
+vs.packages/
