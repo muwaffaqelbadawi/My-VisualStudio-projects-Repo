@@ -1,0 +1,16 @@
+1- Create Python venv
+python -m venv myenv
+
+2- activate the venv
+.\myenv\bin\activate
+
+3- Create .env to root directroy
+4- Save secrets in the .env file
+4- Don't add .env to the local repo
+
+5- install ggshield (Git Guardian) through python
+$ pip install ggshield
+6- Authenticate ggshield
+ggshield auth login
+7- Install ggshield locally
+ggshield install -m local

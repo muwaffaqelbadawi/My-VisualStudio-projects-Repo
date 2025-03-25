@@ -1,2 +1,3 @@
-./myenv/
-./secret/
+myenv/
+.env
+.cache_ggshield
