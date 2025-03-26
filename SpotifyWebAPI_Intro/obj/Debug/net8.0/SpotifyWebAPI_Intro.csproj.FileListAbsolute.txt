@@ -62,3 +62,5 @@ D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\bin\Debug\net8.0\Swan.Lite.
 D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\obj\Debug\net8.0\SpotifyWebAPI_Intro.csproj.AssemblyReference.cache
 D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\obj\Debug\net8.0\SpotifyW.059DC0A0.Up2Date
 D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\obj\Debug\net8.0\SpotifyWebAPI_Intro.sourcelink.json
+D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\bin\Debug\net8.0\DotNetEnv.dll
+D:\My-VisualStudio-Projects-Repo\SpotifyWebAPI_Intro\bin\Debug\net8.0\Sprache.dll

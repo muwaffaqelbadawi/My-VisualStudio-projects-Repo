@@ -3,22 +3,32 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using DotNetEnv;
 
 class OAuthApp
 {
-  private const string CLIENT_ID = "YOUR_CLIENT_ID";
-  private const string CLIENT_SECRET = "YOUR_CLIENT_SECRET";
-  private const string REDIRECT_URI = "http://localhost:5543/callback";
-  private const string AUTH_URL = "https://accounts.spotify.com/authorize";
-  private const string TOKEN_URL = "https://accounts.spotify.com/api/token";
-  private const string API_BASE_URL = "https://api.spotify.com/v1/";
-
+  // Fetch environment variables and provide default values or throw exceptions if not set
+  private static string CLIENT_ID => Environment.GetEnvironmentVariable("Spotify_CLIENT_ID")
+  ?? throw new InvalidOperationException("Spotify_CLIENT_ID is not set in environment variables");
+  private static string CLIENT_SECRET => Environment.GetEnvironmentVariable("Spotify_CLIENT_SECRET")
+  ?? throw new InvalidOperationException("Spotify_CLIENT_SECRET is not set in environment variables");
+  private static string REDIRECT_URI => Environment.GetEnvironmentVariable("Spotify_REDIRECT_URI")
+  ?? throw new InvalidOperationException("Spotify_REDIRECT_URI is not set in environment variables");
+  private static string AUTH_URL => Environment.GetEnvironmentVariable("Spotify_AUTH_URL")
+  ?? throw new InvalidOperationException("Spotify_AUTH_URL is not set in environment variables");
+  private static string TOKEN_URL => Environment.GetEnvironmentVariable("Spotify_TOKEN_URL")
+  ?? throw new InvalidOperationException("Spotify_TOKEN_URL is not set in environment variables");
+  private static string API_BASE_URL => Environment.GetEnvironmentVariable("Spotify_API_BASE_URL")
+  ?? throw new InvalidOperationException("Spotify_API_BASE_URL is not set in environment variables");
   static async Task Main(string[] args)
   {
     // Make sure "http://localhost:5543/callback" is in your application's redirect URIs!
-    // Set up a simple web server to handle the callback
+    // Load environment variables from project root .env file
+    Env.Load();
+
     var builder = WebApplication.CreateBuilder(args);
     var app = builder.Build();
 
@@ -27,25 +37,25 @@ class OAuthApp
     app.MapGet("/", (HttpContext context) =>
    {
      context.Response.ContentType = "text/html";
-     var StatusCode = context.Response.StatusCode;
      return context.Response.WriteAsync("Welcome to Spotify App <a href='/login'>Login with Spotify</a>");
+     // return Task.CompletedTask;
    });
 
     app.MapGet("/login", (HttpContext context) =>
     {
-      const string scope = "user-read-private user-read-email";
+      const string SCOPE = "user-read-private user-read-email";
+      const string RESPONSE_TYPE = "code";
 
       var queryParameters = new
       {
         client_id = CLIENT_ID,
-        response_type = "code",
-        scope = scope,
+        response_type = RESPONSE_TYPE,
+        scope = SCOPE,
         redirect_uri = REDIRECT_URI,
-        // show_dialog = true,
       };
 
       var queryString = string.Join("&",
-                 queryParameters.GetType().GetProperties().Select(prop => $"{prop.Name}={prop.GetValue(queryParameters)}"));
+      queryParameters.GetType().GetProperties().Select(prop => $"{prop.Name}={prop.GetValue(queryParameters)}"));
 
       var auth_url = $"{AUTH_URL}?{queryString}";
       context.Response.Redirect(auth_url);
